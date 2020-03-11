@@ -16,7 +16,7 @@ Jeff Licht (jefflicht64@gmail.com) and Nick Smith (nick.gregory.smith@gmail.com)
 This folder contains all of the data files.
 
 ## file descriptions
-### /data/memorial_biometrics.csv
+### /data/pitchpine_pyc_biometrics.csv
 This file contains stem diameter, plant height, and root length data. The specific
 column information is:
 - *year*: the year the measurement was taken
@@ -27,7 +27,7 @@ column information is:
 - *height*: the height of the tree (cm)
 - *root_length*: the length of longest root (cm)
 
-### /data/memorial_foliar.csv
+### /data/pitchpine_pyc_foliar.csv
 This file contains stem circumference, plant height, and root length data. The specific
 column information is:
 - *individual_id*: a unique identifier for each individual tree
@@ -40,7 +40,7 @@ column information is:
 - *c_percent*: percent carbon in leaves (% or [gC/gLeaf * 100])
 - *n_percent*: percent nitrogen in leaves (% or [gN/gLeaf * 100])
 
-### /data/memorial_retention.csv
+### /data/pitchpine_pyc_retention.csv
 This file contains stem circumference, plant height, and root length data. The specific
 column information is:
 - *year*: the year the measurement was taken
