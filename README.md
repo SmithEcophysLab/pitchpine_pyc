@@ -27,7 +27,7 @@ column information is:
 - *height*: the height of the tree (cm)
 - *root_length*: the length of longest root (cm)
 
-### /data/pitchpine_pyc_foliar.csv
+### /data/pitchpine_pyc_foliar_cn_isotopes.csv
 This file contains stem circumference, plant height, and root length data. The specific
 column information is:
 - *individual_id*: a unique identifier for each individual tree
@@ -48,3 +48,67 @@ column information is:
 *PyCA* is the soil treated with pyrogenic carbon created from recycled feedstock, and
 *PyCF* is the soil treated with pyrogenic carbon created from forest materials 
 - *retention*: moisture retained by soil during dry down-to-moisten up bench test (unitless; 0-1)
+
+### /data/pitchpine_pyc_soil_nutrients_cec_ph.csv
+This file contains soil nutrient, cation exchange capacity (CEC), and pH data. The specific
+column information is:
+- *year*: the year the measurement was taken
+- *soil_treatment*: the soil treatment, where *Control* is the untreated control, 
+*PyCA* is the soil treated with pyrogenic carbon created from recycled feedstock, and
+*PyCF* is the soil treated with pyrogenic carbon created from forest materials 
+- *Ca*: soil calcium (mg kg-1)
+- *P*: soil phosphorus (mg kg-1)
+- *Mg*: magnesium (mg kg-1)
+- *K*: soil potassium (mg kg-1)
+- *Al*: soil aluminum (mg kg-1)
+- *Zn*: soil zinc (mg kg-1)
+- *CEC*: soil cation exchange capacity (meq 100 g-1)
+- *pH*: soil pH (-log[H+])
+
+### /data/pitchpine_pyc_foliar_nutrients.csv
+This file contains foliar nutrient data. The specific
+column information is:
+- *year*: the year the measurement was taken
+- *soil_treatment*: the soil treatment, where *Control* is the untreated control, 
+*PyCA* is the soil treated with pyrogenic carbon created from recycled feedstock, and
+*PyCF* is the soil treated with pyrogenic carbon created from forest materials 
+- *Ca*: soil calcium (mg kg-1)
+- *P*: soil phosphorus (mg kg-1)
+- *Mg*: magnesium (mg kg-1)
+- *K*: soil potassium (mg kg-1)
+- *Al*: soil aluminum (mg kg-1)
+- *Zn*: soil zinc (mg kg-1)
+
+### /data/pitchpine_pyc_charcoal_nutrients_cec_ph.csv
+This file contains soil nutrient, cation exchange capacity (CEC), and pH data. The specific
+column information is:
+- *year*: the year the measurement was taken
+- *charcoal*: the charcoal type, where 
+*PyCA* is the pyrogenic carbon created from recycled feedstock and
+*PyCF* is the pyrogenic carbon created from forest materials 
+- *Ca*: soil calcium (mg kg-1)
+- *P*: soil phosphorus (mg kg-1)
+- *Mg*: magnesium (mg kg-1)
+- *K*: soil potassium (mg kg-1)
+- *Al*: soil aluminum (mg kg-1)
+- *Zn*: soil zinc (mg kg-1)
+- *CEC*: soil cation exchange capacity (meq 100 g-1)
+- *pH*: soil pH (-log[H+])
+
+### /data/pitchpine_pyc_sedge_forest_soil_nutrients_cec_ph.csv
+This file contains soil nutrient, cation exchange capacity (CEC), and pH data for sedge meadow soils. The specific
+column information is:
+- *year*: the year the measurement was taken
+- *soil_treatment*: the charcoal type, where 
+*SM* is the untreated sedge meadow soil and
+*SMPyCA* is the sedge meadow soil treated with pyrogenic carbon created from recycled feedstock
+- *Ca*: soil calcium (mg kg-1)
+- *P*: soil phosphorus (mg kg-1)
+- *Mg*: magnesium (mg kg-1)
+- *K*: soil potassium (mg kg-1)
+- *Al*: soil aluminum (mg kg-1)
+- *Zn*: soil zinc (mg kg-1)
+- *CEC*: soil cation exchange capacity (meq 100 g-1)
+- *pH*: soil pH (-log[H+])
+
+
