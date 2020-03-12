@@ -11,6 +11,9 @@ article to be added following publication]
 ## authors
 Jeff Licht (jefflicht64@gmail.com) and Nick Smith (nick.gregory.smith@gmail.com)
 
+## DOI badge
+[![DOI](https://zenodo.org/badge/246387220.svg)](https://zenodo.org/badge/latestdoi/246387220)
+
 ## folder descriptions
 ### /data
 This folder contains all of the data files.
